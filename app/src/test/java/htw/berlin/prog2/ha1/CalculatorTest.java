@@ -27,7 +27,7 @@ class CalculatorTest {
     }
 
     @Test
-    @DisplayName("should display result after getting the square root of two.")
+    @DisplayName("should display result after getting the square root of two")
     void testSquareRoot() {
         Calculator calc = new Calculator();
 
