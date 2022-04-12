@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class CalculatorTest {
 
     @Test
-    @DisplayName("should display result after adding two positive multi-digit numbers")
+    @DisplayName("should display result after adding two positive multi-digit numbers.")
     void testPositiveAddition() {
         Calculator calc = new Calculator();
 
@@ -27,7 +27,7 @@ class CalculatorTest {
     }
 
     @Test
-    @DisplayName("should display result after getting the square root of two")
+    @DisplayName("should display result after getting the square root of two.")
     void testSquareRoot() {
         Calculator calc = new Calculator();
 
