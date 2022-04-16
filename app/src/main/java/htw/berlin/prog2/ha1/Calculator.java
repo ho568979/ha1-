@@ -1,6 +1,10 @@
 package htw.berlin.prog2.ha1;
 
 /**
+ * github test
+ */
+
+/**
  * Eine Klasse, die das Verhalten des Online Taschenrechners imitiert, welcher auf
  * https://www.online-calculator.com/ aufgerufen werden kann (ohne die Memory-Funktionen)
  * und dessen Bildschirm bis zu zehn Ziffern plus einem Dezimaltrennzeichen darstellen kann.
@@ -15,7 +19,7 @@ public class Calculator {
     private String latestOperation = "";
 
     /**
-     * @return den aktuellen Bildschirminhalt als String
+     * @return den aktuellen Bildschirminhalt als String.
      */
     public String readScreen() {
         return screen;
